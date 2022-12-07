@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?> <!-- Beginning -->
+<kml xmlns="http://www.opengis.net/kml/2.2"> <!-- Beginning -->
+<Document id="root_doc"> <!-- Beginning -->
+<Schema name="All_Neighborhood_Boundaries" id="All_Neighborhood_Boundaries"> <!-- Beginning -->
+	<SimpleField name="OBJECTID" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="CITY" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="CITY_ID" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="PERIMETER" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ACRES" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="COUNTY" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="COUNTY_ID" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="YEAR" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ANNEX_DATE" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ANNEX_NOTE" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="Shapearea" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="Shapelen" type="float"></SimpleField> <!-- Beginning -->
+</Schema> <!-- Beginning -->
+<Folder><name>All_Neighborhood_Boundaries</name> <!-- Beginning -->
+
+  <Placemark>
+    <name>Adams-Normandie</name>
+    <Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+    <ExtendedData><SchemaData schemaUrl="#la_county_neighborhoods_v6">
+        <SimpleData name="kind">L.A. County Neighborhood (V6)</SimpleData>
+        <SimpleData name="external_id">adams-normandie</SimpleData>
+        <SimpleData name="slug">adams-normandie-la-county-neighborhood-v6</SimpleData>
+        <SimpleData name="set">/1.0/boundary-set/la-county-neighborhoods-v6/</SimpleData>
+        <SimpleData name="metadata">{ &quot;city&quot;: &quot;los-angeles&quot;, &quot;name&quot;: &quot;Adams-Normandie&quot;, &quot;region&quot;: &quot;south-la&quot;, &quot;county&quot;: &quot;los-angeles&quot;, &quot;type&quot;: &quot;segment-of-a-city&quot;, &quot;slug&quot;: &quot;adams-normandie&quot; }</SimpleData>
+        <SimpleData name="resource_uri">/1.0/boundary/adams-normandie-la-county-neighborhood-v6/</SimpleData>
+    </SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-118.308002,34.037396 -118.300674,34.037309 -118.303872,34.0372 -118.2967,34.037262 -118.296283,34.03723 -118.296349,34.03689 -118.291549,34.036837 -118.291538,34.025497 -118.308887,34.025553 -118.308988,34.037428 -118.308002,34.037396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <SimpleData name="set">/1.0/boundary-set/la-county-neighborhoods-v6/</SimpleData>
+    <SimpleData name="metadata">{ &quot;city&quot;: &quot;los-angeles&quot;, &quot;name&quot;: &quot;Adams-Normandie&quot;, &quot;region&quot;: &quot;south-la&quot;, &quot;county&quot;: &quot;los-angeles&quot;, &quot;type&quot;: &quot;segment-of-a-city&quot;, &quot;slug&quot;: &quot;adams-normandie&quot; }</SimpleData>
+    <SimpleData name="resource_uri">/1.0/boundary/adams-normandie-la-county-neighborhood-v6/</SimpleData>
+    </SchemaData></ExtendedData>
+        <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-118.308002,34.037396 -118.300674,34.037309 -118.303872,34.0372 -118.2967,34.037262 -118.296283,34.03723 -118.296349,34.03689 -118.291549,34.036837 -118.291538,34.025497 -118.308887,34.025553 -118.308988,34.037428 -118.308002,34.037396</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+        </Placemark>
+        <Placemark>
+        <name>Agoura Hills</name>
+        <Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+        <ExtendedData><SchemaData schemaUrl="#la_county_neighborhoods_v6">
+    <SimpleData name="kind">L.A. County Neighborhood (V6)</SimpleData>
+      <SimpleData name="external_id">agoura-hills</SimpleData>
+  <SimpleData name="slug">agoura-hills-la-county-neighborhood-v6</SimpleData></Folder> <!-- End -->
+</Document></kml> <!-- End -->

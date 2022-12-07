@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?> <!-- Beginning -->
+<kml xmlns="http://www.opengis.net/kml/2.2"> <!-- Beginning -->
+<Document id="root_doc"> <!-- Beginning -->
+<Schema name="All_Neighborhood_Boundaries" id="All_Neighborhood_Boundaries"> <!-- Beginning -->
+	<SimpleField name="OBJECTID" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="CITY" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="CITY_ID" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="PERIMETER" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ACRES" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="COUNTY" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="COUNTY_ID" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="YEAR" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ANNEX_DATE" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ANNEX_NOTE" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="Shapearea" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="Shapelen" type="float"></SimpleField> <!-- Beginning -->
+</Schema> <!-- Beginning -->
+<Folder><name>All_Neighborhood_Boundaries</name> <!-- Beginning -->
+
+  <Placemark>
+    <name>Westwood</name>
+    <Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+    <ExtendedData><SchemaData schemaUrl="#la_county_neighborhoods_v6">
+        <SimpleData name="kind">L.A. County Neighborhood (V6)</SimpleData>
+        <SimpleData name="external_id">westwood</SimpleData>
+        <SimpleData name="slug">westwood-la-county-neighborhood-v6</SimpleData>
+        <SimpleData name="set">/1.0/boundary-set/la-county-neighborhoods-v6/</SimpleData>
+        <SimpleData name="metadata">{ &quot;city&quot;: &quot;los-angeles&quot;, &quot;name&quot;: &quot;Westwood&quot;, &quot;region&quot;: &quot;westside&quot;, &quot;county&quot;: &quot;los-angeles&quot;, &quot;type&quot;: &quot;segment-of-a-city&quot;, &quot;slug&quot;: &quot;westwood&quot; }</SimpleData>
+        <SimpleData name="resource_uri">/1.0/boundary/westwood-la-county-neighborhood-v6/</SimpleData>
+    </SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-118.429363,34.0792 -118.42856,34.079395 -118.427815,34.080432 -118.427079,34.080764 -118.425383,34.080839 -118.423023,34.079931 -118.423828,34.07974 -118.423477,34.078813 -118.423632,34.078764 -118.423296,34.077569 -118.422767,34.077048 -118.423289,34.075689 -118.422546,34.075273 -118.421839,34.075093 -118.420928,34.075428 -118.419642,34.072652 -118.418462,34.072361 -118.417382,34.070206 -118.416371,34.06884 -118.417253,34.068383 -118.414344,34.064324 -118.434125,34.05076 -118.444301,34.047626 -118.449087,34.053351 -118.445776,34.05533 -118.445624,34.055295 -118.450128,34.060779 -118.454033,34.065047 -118.454534,34.065919 -118.454681,34.066799 -118.459977,34.065364 -118.460442,34.06589 -118.460695,34.065804 -118.461745,34.066992 -118.46153,34.06712 -118.466494,34.072855 -118.466103,34.073058 -118.466345,34.073338 -118.464037,34.074037 -118.463421,34.073929 -118.462236,34.07311 -118.461,34.073137 -118.459181,34.074382 -118.458728,34.074458 -118.457756,34.07429 -118.457198,34.074456 -118.454324,34.076815 -118.45372,34.077005 -118.453252,34.07692 -118.450453,34.075576 -118.449933,34.075067 -118.449123,34.073788 -118.448707,34.073516 -118.445574,34.073647 -118.444974,34.074133 -118.444501,34.07628 -118.444162,34.076787 -118.442819,34.077408 -118.440955,34.077483 -118.440142,34.077761 -118.436824,34.080133 -118.435304,34.080809 -118.434838,34.082274 -118.434113,34.082739 -118.432368,34.082551 -118.431845,34.082316 -118.430946,34.081411 -118.430207,34.079623 -118.429363,34.0792</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+
+  <SimpleData name="set">/1.0/boundary-set/la-county-neighborhoods-v6/</SimpleData>
+    <SimpleData name="metadata">{ &quot;city&quot;: &quot;los-angeles&quot;, &quot;name&quot;: &quot;Westwood&quot;, &quot;region&quot;: &quot;westside&quot;, &quot;county&quot;: &quot;los-angeles&quot;, &quot;type&quot;: &quot;segment-of-a-city&quot;, &quot;slug&quot;: &quot;westwood&quot; }</SimpleData>
+    <SimpleData name="resource_uri">/1.0/boundary/westwood-la-county-neighborhood-v6/</SimpleData>
+    </SchemaData></ExtendedData>
+        <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-118.429363,34.0792 -118.42856,34.079395 -118.427815,34.080432 -118.427079,34.080764 -118.425383,34.080839 -118.423023,34.079931 -118.423828,34.07974 -118.423477,34.078813 -118.423632,34.078764 -118.423296,34.077569 -118.422767,34.077048 -118.423289,34.075689 -118.422546,34.075273 -118.421839,34.075093 -118.420928,34.075428 -118.419642,34.072652 -118.418462,34.072361 -118.417382,34.070206 -118.416371,34.06884 -118.417253,34.068383 -118.414344,34.064324 -118.434125,34.05076 -118.444301,34.047626 -118.449087,34.053351 -118.445776,34.05533 -118.445624,34.055295 -118.450128,34.060779 -118.454033,34.065047 -118.454534,34.065919 -118.454681,34.066799 -118.459977,34.065364 -118.460442,34.06589 -118.460695,34.065804 -118.461745,34.066992 -118.46153,34.06712 -118.466494,34.072855 -118.466103,34.073058 -118.466345,34.073338 -118.464037,34.074037 -118.463421,34.073929 -118.462236,34.07311 -118.461,34.073137 -118.459181,34.074382 -118.458728,34.074458 -118.457756,34.07429 -118.457198,34.074456 -118.454324,34.076815 -118.45372,34.077005 -118.453252,34.07692 -118.450453,34.075576 -118.449933,34.075067 -118.449123,34.073788 -118.448707,34.073516 -118.445574,34.073647 -118.444974,34.074133 -118.444501,34.07628 -118.444162,34.076787 -118.442819,34.077408 -118.440955,34.077483 -118.440142,34.077761 -118.436824,34.080133 -118.435304,34.080809 -118.434838,34.082274 -118.434113,34.082739 -118.432368,34.082551 -118.431845,34.082316 -118.430946,34.081411 -118.430207,34.079623 -118.429363,34.0792</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+        </Placemark>
+        <Placemark>
+        <name>Whiting Ranch Wilderness Park</name>
+        <Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+        <ExtendedData><SchemaData schemaUrl="#la_county_neighborhoods_v6">
+    <SimpleData name="kind">L.A. County Neighborhood (V6)</SimpleData>
+      <SimpleData name="external_id">whiting-ranch-wilderness-park</SimpleData>
+  <SimpleData name="slug">whiting-ranch-wilderness-park-la-county-neighborhood-v6</SimpleData>
+</Folder> <!-- End -->
+</Document></kml> <!-- End -->

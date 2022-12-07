@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?> <!-- Beginning -->
+<kml xmlns="http://www.opengis.net/kml/2.2"> <!-- Beginning -->
+<Document id="root_doc"> <!-- Beginning -->
+<Schema name="All_Neighborhood_Boundaries" id="All_Neighborhood_Boundaries"> <!-- Beginning -->
+	<SimpleField name="OBJECTID" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="CITY" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="CITY_ID" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="PERIMETER" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ACRES" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="COUNTY" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="COUNTY_ID" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="YEAR" type="int"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ANNEX_DATE" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="ANNEX_NOTE" type="string"></SimpleField> <!-- Beginning -->
+	<SimpleField name="Shapearea" type="float"></SimpleField> <!-- Beginning -->
+	<SimpleField name="Shapelen" type="float"></SimpleField> <!-- Beginning -->
+</Schema> <!-- Beginning -->
+<Folder><name>All_Neighborhood_Boundaries</name> <!-- Beginning -->
